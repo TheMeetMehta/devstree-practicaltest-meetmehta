@@ -1,6 +1,8 @@
 
 # devstree-practicaltest
 
+To Run this project run npm i to insatll all the dependencies.
+
 created userModel using mongoose schema which takes fullName, email, password, phoneNumber, dob, profileImage from user.
 
 also created auth middleware which has jwt token to protect routes and implemented login, logout, functionality.
@@ -24,4 +26,6 @@ Email type must be mail format and unique timestamps feature
 - login we will get Profile Details API (via JWT auth route, otherwise it will throw user not authorized)
 
 - User List API with filters like search by name(via JWT auth route, otherwise it will throw user not authorized) /userByName route
+
+![Routesimage](Routes.png)
 
