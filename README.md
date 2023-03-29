@@ -27,5 +27,5 @@ Email type must be mail format and unique timestamps feature
 
 - User List API with filters like search by name(via JWT auth route, otherwise it will throw user not authorized) /userByName route
 
-![Routesimage](Routes.png)
+
 
